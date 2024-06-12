@@ -14,6 +14,7 @@ body {
   font-family: 'Monserrat', sans-serif;
   font-size: 16px;
   min-height: 100vh;
+  color: #303030;
 }
 
 a {
@@ -183,4 +184,82 @@ li {
 .david_img {
   margin: auto;
   width: 300px;
+}
+
+/* Seo First Section */
+.first_about_section {
+  margin-top: 1%;
+  width: 99%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 20px;
+}
+
+.generic_section_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.title_line {
+  width: 60px;
+  height: 1px;
+  background-color: #898989;
+  margin: 5% 0;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.subtitle span {
+  font-weight: 600;
+  font-size: 28px;
+  white-space: nowrap;
+}
+
+.about_img {
+  width: 300px;
+  margin-bottom: 5%;
+}
+
+.paragraph {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: #323232;
+  margin-bottom: 5%;
+}
+
+.btn_section_container {
+  background-image: url('media/mobile/Btn Background.svg');
+  background-repeat: no-repeat;
+  background-position-y: center;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.borderless_btn {
+  background-color: transparent;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1994ff;
+  padding-left: 7%;
+}
+
+.btn_line {
+  background-color: #007Be7;
+  width: 22.5px;
+  height: 0.75px;
+  margin-left: 4%;
 }
