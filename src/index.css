@@ -105,10 +105,12 @@ li {
 
 .menu_link {
   font-weight: 300;
+  transition: 0.3s ease;
 }
 
 .menu_link:hover {
-  height: 20px;
+  font-size: 20px;
+  color: #1994ff;
 }
 
 .menu_link.active {
@@ -156,15 +158,20 @@ li {
   font-size: 1.25em;
 }
 
-.hero_content button {
+.hero_btn {
   padding: 12px 30px;
   background-color: #1994ff;
   color: #fff;
   font-weight: 600;
-  cursor: pointer;
   border: none;
   border-radius: 24px;
   margin-bottom: 15%;
+  transition: 0.3s ease;
+}
+
+.hero_btn:hover {
+  color: #fed401;
+  scale: 1.1;
 }
 
 .hero_image {
@@ -189,7 +196,6 @@ li {
 /* Seo First Section */
 .first_about_section {
   margin-top: 1%;
-  width: 99%;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- AOS library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="index.css" />
     <title>Alpha Efficiency</title>
   </head>
@@ -38,14 +40,14 @@
 
     <!-- Hero Section -->
     <main>
-      <section class="hero">
+      <section class="hero" data-aos="fade-up" data-aos-duration="2000">
         <div class="hero_content">
           <h4>Wealth Generating Aesthetics</h4>
           <p>
             Unlock Passive Income with SEO Centric Website, Designed for
             <span class="bolder_span"> 1st Page Rankings</span>
           </p>
-          <button class="btn" type="button">Request your Masterpiece</button>
+          <button class="hero_btn" type="button">Request your Masterpiece</button>
           <div class="hero_image_cont">
             <img
               src="media/mobile/Partners.svg"
@@ -55,7 +57,7 @@
           </div>
         </div>
       </section>
-      <div class="david_container">
+      <div class="david_container" data-aos="fade-up" data-aos-duration="2500">
         <img
           src="media/mobile/David with alpha logo.svg"
           class="david_img"
@@ -66,7 +68,7 @@
 
     <!-- Second Section -->
     <section class="first_about_section">
-      <div class="generic_section_flex">
+      <div class="generic_section_flex" data-aos="fade-down" data-aos-duration="3000">
         <h4 class="subtitle">Web Design With <span>SEO First Approach</span></h4>
         <span class="title_line"></span>
         <p class="paragraph">
@@ -80,7 +82,7 @@
         </div>
         <img src="media/mobile/Video.svg" alt="Video Screenshot" class="about_img" />
       </div>
-      <div class="generic_section_flex">
+      <div class="generic_section_flex" data-aos="fade-down" data-aos-duration="1000">
         <h4 class="subtitle"><span>500 Websites</span> and Counting</h4>
         <span class="title_line"></span>
         <p class="paragraph">
@@ -97,5 +99,12 @@
     </section>
 
     <script src="index.js"></script>
+
+    <!-- AOS library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
   </body>
 </html>
