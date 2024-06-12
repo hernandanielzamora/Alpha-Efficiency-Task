@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  font-family: 'Monserrat', sans-serif;
 }
 
 *,
@@ -46,6 +47,7 @@ li {
 }
 
 .paragraph {
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 25px;
@@ -237,6 +239,7 @@ li {
 }
 
 .subtitle {
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 28px;
   line-height: 38px;
@@ -276,6 +279,11 @@ li {
   line-height: 27px;
   color: #1994ff;
   padding-left: 7%;
+  transition: 0.3s ease;
+}
+
+.borderless_btn:hover {
+  scale: 1.1;
 }
 
 .btn_line {
@@ -384,3 +392,78 @@ li {
 /* Responsive */
 
 /* Medias Querys */
+
+/* From 375px to 424px (Mobile M) */
+@media screen and (min-width: 375px) {
+
+  /* General Sections */
+  .about_img {
+    width: 100%;
+  }
+
+  .line_container {
+    left: -8.6em
+  }
+  
+  .btn_section_container {
+    width: 100%;
+  }
+
+  .borderless_btn {
+    padding: 6%;
+  }
+
+  .btn_line {
+    margin-left: -3%;
+  }
+
+  .second_subtitle {
+    padding-right: 50%;
+  }
+
+  .clients_title {
+    padding-right: 55.5%;
+  }
+
+}
+
+/* From 425px to 767px (Mobile L) */
+@media screen and (min-width: 425px) {
+
+  /* Navbar */
+  .menu {
+    margin-top: 20%;
+  }
+
+  /* Hero Section */
+
+  .david_container {
+    background-position-y: 60%;
+  }
+
+  /* About Sections */
+
+  .line_container {
+    left: -10em
+  }
+
+  .clients_span {
+    padding-right: 29%;
+  }
+
+  .clients_paragraph {
+    font-size: 1.1em;
+  }
+
+  .blog_subtitle {
+    padding-right: 10%;
+  }
+
+  .clients_section {
+    padding: 64px 20px 32px 20px;
+  }
+
+  .clients_title {
+    padding-right: 60%;
+  }
+}
