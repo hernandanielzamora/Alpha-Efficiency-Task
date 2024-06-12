@@ -42,9 +42,8 @@ const renderGrid = (data) => {
 const getData = async () => {
   const response = await fetch('./data/data.json');
   const data = await response.json();
-  let arr=[];
   renderGrid(data.images);
-  return arr;
-}
+  return data;
+};
 
 getData();
