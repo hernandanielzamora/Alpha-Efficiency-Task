@@ -23,6 +23,7 @@ li {
 
 .bolder {
   font-weight: 600;
+  font-size: 1.25em;
 }
 
 /* NavBar */
@@ -39,7 +40,7 @@ li {
   margin-top: 25%;
   height: 90vh;
   width: 100%;
-  max-width: 300px;
+  max-width: 500px;
   position: fixed;
   top: 0;
   right: -100%;
@@ -50,8 +51,8 @@ li {
   text-align: center;
   transition: 0.3s ease;
   font-size: 1em;
-  box-shadow:-5px 0 10px rgb(165, 164, 164, 0.5);
-  background-color: #fff;
+  box-shadow:-5px 0 10px rgba(125, 124, 124, 0.5);
+  background-color: #ffffff;
 }
 
 .menu.active {
@@ -76,7 +77,6 @@ li {
   top: 50%;
 }
 
-
 .ham-menu span:nth-child(2) {
   top: 70%;
 }
@@ -99,7 +99,6 @@ li {
   background-color: #fff;
 }
 
-
 .menu_link {
   font-weight: 300;
 }
@@ -117,3 +116,66 @@ li {
 
 /* Hero Section */
 
+.hero_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  color: #303030;
+}
+
+.hero_content h4 {
+  margin-bottom: 5%;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 1em;
+  color: #303030;
+}
+
+.hero_content p {
+  margin-bottom: 10%;
+  width: 290px;
+  height: 90px;
+  font-weight: 400;
+  font-size: 1.25em;
+  text-align: center;
+  line-height: 30px;
+}	
+
+.hero_content span {
+  text-decoration: underline;
+  text-decoration-color: #ed452f97;
+  text-underline-position: under;
+  color: #303030;
+}
+
+.hero_content button {
+  padding: 12px 30px;
+  background-color: #1994FF;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border-radius: 24px;
+  margin-bottom: 15%;
+}
+
+.hero_image {
+  width: 300px;
+}
+
+.david_container {
+  display: flex;
+  justify-content: center;
+  background-image: url('media/mobile/Group 850.svg');
+  background-position-y: 80%;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  margin-top: -25%;
+}
+
+.david_img {
+  margin: auto;
+  width: 300px;
+}
