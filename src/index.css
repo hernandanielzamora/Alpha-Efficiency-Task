@@ -194,11 +194,10 @@ li {
 }
 
 /* Seo First Section */
-.first_about_section {
+.generic_section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   padding: 32px 20px;
 }
 
@@ -212,7 +211,7 @@ li {
 .line_container {
   display: flex;
   position: relative;
-  left: -7.5em;
+  left: -7em;
   margin: 5%;
 }
 
@@ -276,7 +275,7 @@ li {
   margin-left: 4%;
 }
 
-/* About Section */
+/* About Us Section */
 
 .about_us_container {
   position: relative;
@@ -291,4 +290,46 @@ li {
   background-size: 300px;
   background-repeat: no-repeat;
   z-index: -1;
+}
+
+/* Testimonial Section */
+
+.client_subtitle {
+  text-align: left;
+  font-size: 30px;
+}
+
+.client_paragraph {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1em;
+  line-height: 24px;
+  color: #303030;
+  margin: 5%;
+}
+
+.client_name {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #303030;
+}
+
+.client_position {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  color: #686868;
+  margin-bottom: 5%;
+}
+
+.arrows_img_container {
+  margin-top: 4%;
+}
+
+.arrows_img:hover {
+  scale: 1.2;
 }
