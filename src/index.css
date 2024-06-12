@@ -223,7 +223,7 @@ li {
   line-height: 38px;
 }
 
-.subtitle span {
+.subtitle_span {
   font-weight: 600;
   font-size: 28px;
   white-space: nowrap;
@@ -264,7 +264,7 @@ li {
 }
 
 .btn_line {
-  background-color: #007Be7;
+  background-color: #007be7;
   width: 22.5px;
   height: 0.75px;
   margin-left: 4%;
