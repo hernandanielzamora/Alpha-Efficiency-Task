@@ -39,10 +39,23 @@ const renderGrid = (data) => {
   });
 };
 
+const renderClients = (data) => {
+  const clients = document.querySelector('.clients_container');
+  data.forEach((item) => {
+    const client = document.createElement('div');
+    client.classList.add('client');
+    client.innerHTML = `
+      <img src="${item.img}" alt="${item.name}">
+    `;
+    clients.appendChild(client);
+  });
+};
+
 const getData = async () => {
   const response = await fetch('./data/data.json');
   const data = await response.json();
   renderGrid(data.images);
+  renderClients(data.clients);
   return data;
 };
 
