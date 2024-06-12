@@ -22,6 +22,8 @@ links.forEach((link) => {
   link.addEventListener('click', () => {
     links.forEach((link) => link.classList.remove('active'));
     link.classList.add('active');
+    hamMenu.classList.remove('active');
+    menu.classList.remove('active');
   });
 });
 
