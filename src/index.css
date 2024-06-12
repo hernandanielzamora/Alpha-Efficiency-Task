@@ -195,7 +195,6 @@ li {
 
 /* Seo First Section */
 .first_about_section {
-  margin-top: 1%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -207,7 +206,14 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+}
+
+.line_container {
+  display: flex;
+  position: relative;
+  left: -7.5em;
+  margin: 5%;
 }
 
 .title_line {
@@ -268,4 +274,21 @@ li {
   width: 22.5px;
   height: 0.75px;
   margin-left: 4%;
+}
+
+/* About Section */
+
+.about_us_container {
+  position: relative;
+}
+
+.about_us_container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("media/mobile/AboutUs Background.svg");
+  background-position: bottom;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  z-index: -1;
 }
