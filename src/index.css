@@ -224,7 +224,7 @@ li {
 .line_container {
   display: flex;
   position: relative;
-  left: -7em;
+  left: -6.8em;
   margin: 5%;
 }
 
@@ -357,4 +357,25 @@ li {
 
 .pencil_div {
   margin-top: 10%;
+}
+
+/* Clients Section */
+
+.clients_title {
+  padding-right: 47%;
+}
+
+.clients_paragraph {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 30px;
+  color: #323232;
+  margin-bottom: 5%;
+}
+
+.clients_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 20px;
 }
