@@ -8,7 +8,22 @@ body {
   min-height: 100dvh;
 }
 
+a {
+  text-decoration: none;
+  color: #303030;
+}
+
+li {
+  list-style: none;
+}
+
 /* End Normalize */
+
+/* Global Classes */
+
+.bolder {
+  font-weight: 600;
+}
 
 /* NavBar */
 
@@ -21,20 +36,22 @@ body {
 }
 
 .menu {
-  margin-top: 20%;
+  margin-top: 25%;
   height: 90vh;
   width: 100%;
-  max-width: 450px;
+  max-width: 300px;
   position: fixed;
   top: 0;
   right: -100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
   transition: 0.3s ease;
   font-size: 1em;
+  box-shadow:-5px 0 10px rgb(165, 164, 164, 0.5);
+  background-color: #fff;
 }
 
 .menu.active {
@@ -81,3 +98,22 @@ body {
   padding: 1.25em;
   background-color: #fff;
 }
+
+
+.menu_link {
+  font-weight: 300;
+}
+
+.menu_link:hover {
+  height: 20px;
+}
+
+.menu_link.active {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  text-underline-position: under;
+  font-weight: 600;
+}
+
+/* Hero Section */
+
