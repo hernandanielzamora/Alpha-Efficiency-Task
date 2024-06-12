@@ -18,9 +18,9 @@ document.addEventListener('click', (e) => {
 
 const links = document.querySelectorAll('.menu_link');
 
-links.forEach(link => { 
+links.forEach((link) => {
   link.addEventListener('click', () => {
-    links.forEach(link => link.classList.remove('active'));
+    links.forEach((link) => link.classList.remove('active'));
     link.classList.add('active');
-  })
+  });
 });

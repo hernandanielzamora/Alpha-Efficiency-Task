@@ -1,11 +1,19 @@
 /* NORMALIZE */
-* { margin: 0; padding: 0; }
-*, *::before, *::after { box-sizing: border-box; }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'Monserrat', sans-serif;
   font-size: 16px;
-  min-height: 100dvh;
+  min-height: 100vh;
 }
 
 a {
@@ -20,11 +28,6 @@ li {
 /* End Normalize */
 
 /* Global Classes */
-
-.bolder {
-  font-weight: 600;
-  font-size: 1.25em;
-}
 
 /* NavBar */
 
@@ -51,8 +54,8 @@ li {
   text-align: center;
   transition: 0.3s ease;
   font-size: 1em;
-  box-shadow:-5px 0 10px rgba(125, 124, 124, 0.5);
-  background-color: #ffffff;
+  box-shadow: -5px 0 10px rgba(125, 124, 124, 0.5);
+  background-color: #fff;
 }
 
 .menu.active {
@@ -141,18 +144,20 @@ li {
   font-size: 1.25em;
   text-align: center;
   line-height: 30px;
-}	
+}
 
-.hero_content span {
+.bolder_span {
   text-decoration: underline;
   text-decoration-color: #ed452f97;
   text-underline-position: under;
   color: #303030;
+  font-weight: 600;
+  font-size: 1.25em;
 }
 
 .hero_content button {
   padding: 12px 30px;
-  background-color: #1994FF;
+  background-color: #1994ff;
   color: #fff;
   font-weight: 600;
   cursor: pointer;
