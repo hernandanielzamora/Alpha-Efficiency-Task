@@ -181,7 +181,7 @@ li {
 .david_container {
   display: flex;
   justify-content: center;
-  background-image: url('media/mobile/Group 850.svg');
+  background-image: url('media/Group 850.svg');
   background-position-y: 80%;
   background-position-x: center;
   background-repeat: no-repeat;
@@ -248,7 +248,7 @@ li {
 }
 
 .btn_section_container {
-  background-image: url('media/mobile/Btn Background.svg');
+  background-image: url('media/Btn Background.svg');
   background-repeat: no-repeat;
   background-position-y: center;
   width: 300px;
@@ -285,7 +285,7 @@ li {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url("media/mobile/AboutUs Background.svg");
+  background-image: url("media/AboutUs Background.svg");
   background-position: bottom;
   background-size: 300px;
   background-repeat: no-repeat;

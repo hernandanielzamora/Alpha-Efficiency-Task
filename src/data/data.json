@@ -1,0 +1,40 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "img": "./media/knowledge/Square 1.svg"
+    }, 
+    {
+      "id": 2,
+      "img": "./media/knowledge/Square 2.svg"
+    },
+    {
+      "id": 3,
+      "img": "./media/knowledge/Square 3.svg"
+    },
+    {
+      "id": 4,
+      "img": "./media/knowledge/Square 4.svg"
+    },
+    {
+      "id": 5,
+      "img": "./media/knowledge/Square 5.svg"
+    },
+    {
+      "id": 6,
+      "img": "./media/knowledge/Square 6.svg"
+    },
+    {
+      "id": 7,
+      "img": "./media/knowledge/Square 7.svg"
+    },
+    {
+      "id": 8,
+      "img": "./media/knowledge/Square 8.svg"
+    },
+    {
+      "id": 9,
+      "img": "./media/knowledge/Square 9.svg"
+    }
+  ]
+}
