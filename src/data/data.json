@@ -1,39 +1,39 @@
 {
   "images": [
     {
-      "id": 1,
+      "name": "Applications",
       "img": "./media/knowledge/Square 1.svg"
     }, 
     {
-      "id": 2,
+      "name": "Books",
       "img": "./media/knowledge/Square 2.svg"
     },
     {
-      "id": 3,
+      "name": "Email Marketing",
       "img": "./media/knowledge/Square 3.svg"
     },
     {
-      "id": 4,
+      "name": "PPC",
       "img": "./media/knowledge/Square 4.svg"
     },
     {
-      "id": 5,
+      "name": "SEO",
       "img": "./media/knowledge/Square 5.svg"
     },
     {
-      "id": 6,
+      "name": "Web Design",
       "img": "./media/knowledge/Square 6.svg"
     },
     {
-      "id": 7,
+      "name": "Tools",
       "img": "./media/knowledge/Square 7.svg"
     },
     {
-      "id": 8,
+      "name": "Time Management",
       "img": "./media/knowledge/Square 8.svg"
     },
     {
-      "id": 9,
+      "name": "Workflow",
       "img": "./media/knowledge/Square 9.svg"
     }
   ]

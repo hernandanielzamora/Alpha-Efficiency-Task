@@ -33,7 +33,7 @@ const renderGrid = (data) => {
     const card = document.createElement('div');
     card.classList.add('card');
     card.innerHTML = `
-      <img src="${item.img}" alt="">
+      <img src="${item.img}" alt="${item.name}">
     `;
     grid.appendChild(card);
   });
