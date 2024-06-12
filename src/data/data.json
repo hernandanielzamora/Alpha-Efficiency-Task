@@ -1,0 +1,40 @@
+{
+  "images": [
+    {
+      "name": "Applications",
+      "img": "./media/knowledge/Square 1.svg"
+    }, 
+    {
+      "name": "Books",
+      "img": "./media/knowledge/Square 2.svg"
+    },
+    {
+      "name": "Email Marketing",
+      "img": "./media/knowledge/Square 3.svg"
+    },
+    {
+      "name": "PPC",
+      "img": "./media/knowledge/Square 4.svg"
+    },
+    {
+      "name": "SEO",
+      "img": "./media/knowledge/Square 5.svg"
+    },
+    {
+      "name": "Web Design",
+      "img": "./media/knowledge/Square 6.svg"
+    },
+    {
+      "name": "Tools",
+      "img": "./media/knowledge/Square 7.svg"
+    },
+    {
+      "name": "Time Management",
+      "img": "./media/knowledge/Square 8.svg"
+    },
+    {
+      "name": "Workflow",
+      "img": "./media/knowledge/Square 9.svg"
+    }
+  ]
+}

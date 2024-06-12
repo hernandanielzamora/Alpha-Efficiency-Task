@@ -24,3 +24,26 @@ links.forEach((link) => {
     link.classList.add('active');
   });
 });
+
+/* Creating Grid Table for Organized Knowledge */
+
+const renderGrid = (data) => {
+  const grid = document.querySelector('.grid');
+  data.forEach((item) => {
+    const card = document.createElement('div');
+    card.classList.add('card');
+    card.innerHTML = `
+      <img src="${item.img}" alt="${item.name}">
+    `;
+    grid.appendChild(card);
+  });
+};
+
+const getData = async () => {
+  const response = await fetch('./data/data.json');
+  const data = await response.json();
+  renderGrid(data.images);
+  return data;
+};
+
+getData();

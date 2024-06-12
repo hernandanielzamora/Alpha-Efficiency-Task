@@ -30,6 +30,32 @@ li {
 
 /* Global Classes */
 
+.generic_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px 20px;
+}
+
+.generic_section_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: #323232;
+  margin-bottom: 5%;
+}
+
+.generic_img {
+  width: 90vw;
+}
+
 /* NavBar */
 
 .logo-desktop {
@@ -181,7 +207,7 @@ li {
 .david_container {
   display: flex;
   justify-content: center;
-  background-image: url('media/mobile/Group 850.svg');
+  background-image: url('media/Group 850.svg');
   background-position-y: 80%;
   background-position-x: center;
   background-repeat: no-repeat;
@@ -194,19 +220,6 @@ li {
 }
 
 /* Seo First Section */
-.generic_section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 32px 20px;
-}
-
-.generic_section_flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 .line_container {
   display: flex;
@@ -234,21 +247,17 @@ li {
   white-space: nowrap;
 }
 
+.second_subtitle {
+  padding-right: 20%;
+}
+
 .about_img {
   width: 300px;
   margin-bottom: 5%;
 }
 
-.paragraph {
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 25px;
-  color: #323232;
-  margin-bottom: 5%;
-}
-
 .btn_section_container {
-  background-image: url('media/mobile/Btn Background.svg');
+  background-image: url('media/Btn Background.svg');
   background-repeat: no-repeat;
   background-position-y: center;
   width: 300px;
@@ -285,7 +294,7 @@ li {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url("media/mobile/AboutUs Background.svg");
+  background-image: url("media/AboutUs Background.svg");
   background-position: bottom;
   background-size: 300px;
   background-repeat: no-repeat;
@@ -332,4 +341,20 @@ li {
 
 .arrows_img:hover {
   scale: 1.2;
+}
+
+/* Blog / Libraries Section */
+
+.libraries {
+  background-color: #f9f9f9;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.pencil_div {
+  margin-top: 10%;
 }
