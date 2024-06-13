@@ -314,6 +314,12 @@ li {
 
 /* Testimonial Section */
 
+.testimonial_container {
+  background-image: url('media/UnionClientBackground.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .client_subtitle {
   text-align: left;
   font-size: 30px;
@@ -368,6 +374,15 @@ li {
 }
 
 /* Blog / Libraries Section */
+
+
+.library_left {
+  padding: 64px 20px 32px 20px;
+}
+
+.library_left p {
+  font-size: 14px;
+}
 
 .libraries {
   background-color: #f9f9f9;
@@ -444,6 +459,18 @@ li {
     padding-right: 40%;
   }
 
+  /* Library */ 
+
+  .library_left {
+    padding: 0;
+  }
+
+  .library_flex {
+    padding: 64px 20px 32px 20px;
+  }
+
+  /* Clients */
+
   .clients_title {
     padding-right: 58%;
   }
@@ -473,6 +500,13 @@ li {
     margin-right: 5%;
   }
 
+  /* Library */
+
+  .library_flex {
+    padding: 10px;
+  }
+
+  /* Clients */
   .clients_span {
     padding-right: 29%;
   }
@@ -732,7 +766,14 @@ li {
     height: 300px;
   }
 
-  /* Our Clients */
+  /* Testimonial Section */
+
+  .testimonial_container {
+    background-position: center;
+    background-position-x: 208px;
+    background-position-y: 52px;
+    background-size: 80px;
+  }
 
   .tablet_title_container {
     align-self: start;
@@ -748,6 +789,7 @@ li {
     justify-content: center;
     align-items: center;
     width: 100vw;
+    margin-top: 1%;
   }
 
   .generic_img {
@@ -840,6 +882,14 @@ li {
     border-radius: 20px;
   }
 
+  .library_left {
+    padding: 20px;
+  }
+
+  .library_line {
+    margin-left: 2%;
+  }
+
   .pencil_div {
     margin-top: 0%;
   }
@@ -904,6 +954,212 @@ li {
       transform: perspective(1000px) rotateX(1deg) rotateY(1deg) rotateZ(1deg) translateY(20vh);
     }
   }
+}
 
+/* Responsive for Laptop */
+@media screen and (min-width: 1024px) {
+
+  .desktop_noshow {
+    display: none;
+  }
+
+  .desktop_show {
+    display: initial;
+  }
+
+  /* NavBar */
+  .logo-desktop {
+    margin-left: 5%;
+  }
+
+  .menu {
+    gap: 24px;
+    margin-right: 3%;
+  }
+
+  /* Hero Section */
+  .hero_content h4 {
+    padding-left: 18%;
+  }
+
+  .hero_content p {
+    width: 78%;
+  }
+
+  /* Second Section - Upper Part */
+
+  .subtitle {
+    font-size: 38px;
+    line-height: 46px;
+    color: #121212;
+  }
+
+  .subtitle_span {
+    font-size: 38px;
+  }
+
+  .line_container.second_section {
+    left: -1.05em;
+  }
+
+  .paragraph {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .borderless_btn {
+    font-size: 16px;
+  }
+
+  .second_subtitle {
+    margin: 0%;
+  }
+
+  /* Subtitle */
+
+  .about_us_container {
+    gap: 30px;
+  }
+
+  .desktop_featured {
+    display: initial;
+    height: 500px;
+  }
+
+  .desktop_featured img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .about_left_side {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about_left_side h4 {
+    font-size: 37px;
+    line-height: 40px;
+  }
+
+  .about_paragraph {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  /* Testimonial */
+
+  .testimonial_container {
+    background-size: 126px;
+    background-position-x: 315px;
+    background-position-y: 96px;
+  }
+
+  .longer_line_container {
+    left: -27.2em;
+  }
+
+  .generic_img {
+    width: 300px;
+    height: 300px;
+    margin-left: -3%;
+  }
+
+  .client_card {
+    margin-top: 1%;
+  }
+
+  .client_paragraph {
+    margin-left: -1%;
+    margin-right: -10%;
+    font-size: 19px;
+    line-height: 33px;
+  }
+
+  .clien_info {
+    width: 30vw;
+  }
+
+  .client_name {
+    line-height: 18px;
+    font-size: 32px;
+    color: #121212;
+    margin-bottom: 5%;
+  }
+
+  .client_position {
+    font-size: 20px;
+  }
+
+  .arrows_img {
+    width: 154px;
+    height: 64px;
+    top: -142px;
+  }
+
+  /* Library Section */
+  
+  .library_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .library_left {
+    width: 47vw;
+    margin-left: 3%;
+    height: 50vh;
+    margin-top: 5%;
+    padding: 0;
+  }
+
+  .library_left h4 {
+    font-size: 34px;
+  }
+
+  .blog_subtitle {
+    padding-right: 0%;
+  }
+
+  .flex_tablet {
+    gap: 2px;
+  }
+
+  .card {
+    text-align: initial;
+    height: fit-content;
+  }
+
+  .library_right {
+    width: 45vw;
+    height: 51vh;
+  }
+
+  .library_paragraph {
+    color: #323232;
+  }
+
+  .library_line_cont.second_section {
+    left: -0.3em;
+  }
+
+  .library_line {
+    width: 60px;
+  }
+
+  .library_background_img {
+    margin-top: -4%;
+  }
+
+
+  /* Clients */
+
+  .clients_paragraph {
+    font-size: 18px;
+  }
+
+
+  
 
 }

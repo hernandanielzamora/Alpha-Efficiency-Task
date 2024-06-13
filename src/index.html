@@ -155,6 +155,9 @@
 
     <section class="generic_section">
       <div id="about" class="generic_section_flex about_us_container">
+        <div class="invisible desktop_featured">
+          <img src="media/Desktop-FeaturedOn.svg" alt="Featured On Picture" />
+        </div>
         <div class="about_left_side">
           <div class="title_container">
             <h4 class="subtitle">
@@ -177,7 +180,7 @@
             <span class="btn_line"></span>
           </div>
         </div>
-        <div>
+        <div class="desktop_noshow">
           <img
             src="media/Featured On.svg"
             alt="Featured On Image"
@@ -194,7 +197,7 @@
       data-aos="fade-up"
       data-aos-duration="2000"
     >
-      <div class="generic_section_flex">
+      <div class="generic_section_flex testimonial_container">
         <div class="title_container tablet_title_container">
           <h4 class="subtitle client_subtitle">
             <span class="subtitle_span clients_span">What Our Clients</span> Are
@@ -209,7 +212,12 @@
             <img
               src="media/ClientTestiomonial.svg"
               alt="Tangram Client Picture"
-              class="generic_img"
+              class="generic_img desktop_noshow"
+            />
+            <img
+              src="media/Desktop-TestimonialPicture.svg"
+              alt="Tangram Client Picture"
+              class="generic_img invisible desktop_show"
             />
           </div>
           <p class="client_paragraph">
@@ -233,26 +241,38 @@
 
     <section class="generic_section libraries" id="blog">
       <div class="generic_section_flex">
-        <div class="title_container blog_subtitle tablet_title_container">
-          <h4 class="subtitle">
-            <span class="subtitle_span">Open Source</span>
-          </h4>
-          <h4 class="subtitle">Web Development Libraries</h4>
+        <div class="library_flex">
+          <div class="library_left">
+            <div class="title_container blog_subtitle tablet_title_container">
+              <h4 class="subtitle">
+                <span class="subtitle_span">Open Source</span>
+              </h4>
+              <h4 class="subtitle">Web Development Libraries</h4>
+            </div>
+            <div
+              class="line_container longer_line_container second_section library_line_cont"
+            >
+              <span class="title_line longer_line library_line"></span>
+            </div>
+            <p class="paragraph library_paragraph">
+              Follow our Blog, get the latest updates on ways technology
+              improves your business performance. Follow up with our software
+              development updates, intricacies of search engine optimization,
+              and our GIT workflows.
+            </p>
+            <p class="paragraph library_paragraph">
+              All of our knowledge stored, organized and conveiently shared so
+              you can benefit from our expertise for free.
+            </p>
+            <div class="invisible desktop_show">
+            <div class="btn_section_container">
+              <button class="borderless_btn" type="button">EXPLORE</button>
+              <span class="btn_line"></span>
+            </div>
+          </div>
+          </div>
+          <div class="grid flex_tablet library_right"></div>
         </div>
-        <div class="line_container longer_line_container">
-          <span class="title_line longer_line"></span>
-        </div>
-        <p class="paragraph library_paragraph">
-          Follow our Blog, get the latest updates on ways technology improves
-          your business performance. Follow up with our software development
-          updates, intricacies of search engine optimization, and our GIT
-          workflows.
-        </p>
-        <p class="paragraph library_paragraph">
-          All of our knowledge stored, organized and conveiently shared so you
-          can benefit from our expertise for free.
-        </p>
-        <div class="grid flex_tablet"></div>
         <div class="pencil_div">
           <img
             src="media/Pencil.svg"
