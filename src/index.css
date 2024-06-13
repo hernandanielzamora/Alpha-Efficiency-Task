@@ -349,6 +349,13 @@ li {
   margin: 5%;
 }
 
+.client_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .client_name {
   font-family: 'Mulish', sans-serif;
   font-weight: 700;
@@ -368,6 +375,9 @@ li {
 
 .arrows_img_container {
   margin-top: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
 
 .arrows_img:hover {
@@ -740,13 +750,80 @@ li {
     height: 300px;
   }
 
+  /* Our Clients */
 
+  .client_title_container {
+    align-self: start;
+    margin-left: 1%;
+  }
 
+  .clients_span {
+    padding: 0%;
+  }
 
+  .client_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
 
+  .generic_img {
+    width: 300px;
+    margin-left: -15%;
+  }
 
+  .client_paragraph {
+    width: 60vw;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    font-style: italic;
+    font-family: 'Mulish';
+    margin: 0%;
+    margin-left: -13%;
+    margin-right: -10%;
+  }
 
+  .arrows_img {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: -100px;
+    left: -23px;
+  }
 
+  .client_info {
+    width: 27vw;
+    display: flex;
+    position: relative;
+    top: 100px;
+    flex-direction: column;
+    left: 81px;
+  }
 
+  .client_name {
+    line-height: 18px;
+    font-size: 20px;
+    text-align: end;
+  }
+
+  .client_position {
+    font-size: 11px;
+    text-align: right;
+    margin-left: 4vw;
+  }
+
+  .clients_line_container {
+    left: -19.2em;
+    margin: 2%;
+  }
+
+  .clients_line {
+    width: 88px;
+    height: 1px;
+  }
+
+  /* Library Section */
 
 }
