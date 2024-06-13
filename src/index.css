@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  font-family: 'Monserrat';
 }
 
 *,
@@ -20,7 +19,6 @@ body {
 a {
   text-decoration: none;
   color: #303030;
-  font-family: 'Montserrat';
 }
 
 li {
@@ -46,7 +44,6 @@ li {
 }
 
 .paragraph {
-  font-family: 'Montserrat';
   font-weight: 300;
   font-size: 15px;
   line-height: 25px;
@@ -58,11 +55,11 @@ li {
   width: 90vw;
 }
 
-/* NavBar */
-
-.logo-desktop {
+.invisible {
   display: none;
 }
+
+/* NavBar */
 
 .logo-mobile {
   margin-right: 10%;
@@ -166,7 +163,6 @@ li {
   font-weight: 500;
   font-size: 1em;
   color: #303030;
-  font-family: 'Montserrat';
 }
 
 .hero_content p {
@@ -177,7 +173,6 @@ li {
   font-size: 1.25em;
   text-align: center;
   line-height: 30px;
-  font-family: 'Montserrat';
 }
 
 .bolder_span {
@@ -210,10 +205,6 @@ li {
   width: 300px;
 }
 
-.img_title {
-  display: none;
-}
-
 .david_container {
   display: flex;
   justify-content: center;
@@ -230,11 +221,6 @@ li {
 }
 
 /* Seo First Section */
-
-
-.division_line {
-  display: none;
-}
 
 .line_container {
   display: flex;
@@ -255,7 +241,6 @@ li {
 }
 
 .subtitle {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 23px;
   line-height: 38px;
@@ -265,7 +250,6 @@ li {
   font-weight: 600;
   font-size: 24px;
   white-space: nowrap;
-  font-family: 'Montserrat';
 }
 
 .second_subtitle {
@@ -340,7 +324,7 @@ li {
 }
 
 .client_paragraph {
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Mulish';
   font-weight: 500;
   font-style: italic;
   font-size: 1em;
@@ -357,7 +341,7 @@ li {
 }
 
 .client_name {
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Mulish';
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
@@ -365,7 +349,6 @@ li {
 }
 
 .client_position {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 27px;
@@ -578,21 +561,20 @@ li {
     margin-bottom: 0%;
     align-self: flex-start;
     display: flex;
-    padding-left: 12%;
+    padding-left: 7%;
   }
 
   .hero_content p {
-    font-size: 28px;
+    font-size: 31px;
     line-height: 45px;
     width: 89%;
     height: 117px;
     margin-bottom: 0%;
-    font-family: 'Montserrat';
   }
 
   .bolder_span {
     font-weight: 600;
-    font-size: 31px;
+    font-size: 29px;
     line-height: 45px;
   }
 
@@ -619,11 +601,11 @@ li {
 
   .img_title {
     display: inline;
-    width: 223px;
+    width: 252px;
     height: 48px;
     color: #303030;
     font-size: 4em;
-    margin-bottom: 5%;
+    margin-bottom: 9%;
     text-align: center;
   }
 
@@ -862,11 +844,8 @@ li {
     margin-top: 0%;
   }
 
-  .pencil_img {
-    display: none;
-  }
-
   .library_background_img {
+    display: inline;
     margin-top: -3%;
     width: 100vw;
   }
