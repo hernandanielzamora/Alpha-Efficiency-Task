@@ -14,6 +14,7 @@
 
 body {
   min-height: 100vh;
+  font-family: 'Montserrat';
 }
 
 a {
@@ -24,7 +25,6 @@ a {
 
 li {
   list-style: none;
-
 }
 
 /* End Normalize */
@@ -171,12 +171,13 @@ li {
 
 .hero_content p {
   margin-bottom: 10%;
-  width: 290px;
+  width: 320px;
   height: 90px;
   font-weight: 400;
   font-size: 1.25em;
   text-align: center;
   line-height: 30px;
+  font-family: 'Montserrat';
 }
 
 .bolder_span {
@@ -197,6 +198,7 @@ li {
   border-radius: 24px;
   margin-bottom: 15%;
   transition: 0.3s ease;
+  font-family: 'Montserrat';
 }
 
 .hero_btn:hover {
@@ -206,6 +208,10 @@ li {
 
 .hero_image {
   width: 300px;
+}
+
+.img_title {
+  display: none;
 }
 
 .david_container {
@@ -232,6 +238,10 @@ li {
   margin: 5%;
 }
 
+.line_container.second_section {
+  left: -0.5em;
+}
+
 .title_line {
   width: 60px;
   height: 1px;
@@ -242,18 +252,19 @@ li {
 .subtitle {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 23px;
   line-height: 38px;
 }
 
 .subtitle_span {
   font-weight: 600;
-  font-size: 28px;
+  font-size: 24px;
   white-space: nowrap;
+  font-family: 'Montserrat';
 }
 
 .second_subtitle {
-  padding-right: 20%;
+  padding-right: 25%;
 }
 
 .about_img {
@@ -318,6 +329,10 @@ li {
   font-size: 30px;
 }
 
+.clients_span {
+  padding-right: 10%;
+}
+
 .client_paragraph {
   font-family: 'Mulish', sans-serif;
   font-weight: 500;
@@ -372,7 +387,11 @@ li {
 /* Clients Section */
 
 .clients_title {
-  padding-right: 47%;
+  padding-right: 51%;
+}
+
+.clients_span {
+  font-size: 30px;
 }
 
 .clients_paragraph {
@@ -405,6 +424,10 @@ li {
   .line_container {
     left: -8.6em
   }
+
+  .line_container.second_section {
+    left: -1em;
+  }
   
   .btn_section_container {
     width: 100%;
@@ -419,11 +442,11 @@ li {
   }
 
   .second_subtitle {
-    padding-right: 50%;
+    padding-right: 40%;
   }
 
   .clients_title {
-    padding-right: 55.5%;
+    padding-right: 58%;
   }
 }
 
@@ -447,6 +470,10 @@ li {
     left: -10em
   }
 
+  .second_subtitle {
+    margin-right: 5%;
+  }
+
   .clients_span {
     padding-right: 29%;
   }
@@ -456,7 +483,7 @@ li {
   }
 
   .blog_subtitle {
-    padding-right: 10%;
+    padding-right: 15%;
   }
 
   .clients_section {
@@ -464,7 +491,7 @@ li {
   }
 
   .clients_title {
-    padding-right: 60%;
+    padding-right: 62%;
   }
 }
 
@@ -585,4 +612,8 @@ li {
     height: 651px;
     margin-top: -18%;
   }
+
+  /* Second Section */
+
+
 }
