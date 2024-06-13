@@ -504,6 +504,15 @@ li {
 /* From 768px to 1024px (Tablet to Laptop) */
 @media screen and (min-width: 768px) {
 
+  /* Fonts */
+  .futura_lt {
+    font-family: 'Futura Lt BT';
+  }
+  
+  .futura_md {
+    font-family: 'Futura Md BT';
+  }
+
   /* NavBar */
   .hidden {
     display: none;
@@ -645,7 +654,6 @@ li {
   }
 
   .subtitle {
-    font-family: 'Futura Lt BT';
     font-weight: 400;
     font-size: 25px;
     line-height: 36px;
@@ -655,7 +663,6 @@ li {
     font-weight: 600;
     font-size: 24px;
     white-space: nowrap;
-    font-family: Futura Md BT;
   }
 
   .paragraph {
@@ -698,16 +705,40 @@ li {
     margin-top: 2%;
   }
 
-
   .left_side_reversed {
     margin-left: -5%;
   }
-
 
   .right_side_reversed {
     margin-right: -10%;
   }
 
+  /* About Us Section */
+
+  .about_us_container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .about_us_container::before {
+    display: none;
+  }
+
+  .about_left_side {
+    width: 50%;
+    margin-right: 4%;
+    margin-left: 2%;
+  }
+
+  .about_paragraph {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .about_img {
+    height: 300px;
+  }
 
 
 
