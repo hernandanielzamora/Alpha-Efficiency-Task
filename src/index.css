@@ -466,7 +466,7 @@ li {
     padding-right: 38%;
   }
 
-  /* Library */ 
+  /* Library */
 
   .library_left {
     padding: 0;
@@ -977,13 +977,14 @@ li {
   }
 
   /* NavBar */
-  .logo-desktop {
-    margin-left: 5%;
+
+  .logo_desktop_img {
+    margin-left: -9%;
+    padding-right: 0%;
   }
 
   .menu {
-    gap: 24px;
-    margin-right: 3%;
+    gap: 64px;
   }
 
   /* Hero Section */
@@ -1107,7 +1108,7 @@ li {
   }
 
   /* Library Section */
-  
+
   .library_flex {
     display: flex;
     flex-direction: row;
@@ -1173,7 +1174,7 @@ li {
 /* Responsive for Desktop starting from (1440px) */
 
 @media screen and (min-width: 1440px) {
-  
+
   .desktop_hidden {
     display: none;
   }
@@ -1371,6 +1372,206 @@ li {
     grid-template-columns: repeat(6, 1fr);
     margin-bottom: 0%;
     padding-bottom: 0%;
+  }
+
+}
+
+@media screen and (min-width: 1920px) {
+
+  /* Navbar */
+
+  .navbar {
+    padding: 0px 300px;
+  }
+
+  .menu {
+    margin-right: 0%;
+    gap: 64px;
+  }
+
+  .logo-desktop {
+    margin-left: 0%;
+    transition: 0.4s ease-in-out;
+    transform: 0.3s;
+  }
+
+  .logo-desktop:hover {
+    scale: 1.1;
+    transform: rotateX(30deg);
+  }
+
+  .logo_desktop_img {
+    width: 380px;
+  }
+
+  /* Hero Section */
+
+  main {
+    background-position-y: 420px;
+  }
+
+  .hero {
+    background-size: 500px;
+  }
+
+  .hero_content {
+    background-size: 400px;
+  }
+
+  .hero_content h4 {
+    padding-left: 2.5%;
+    font-size: 20px;
+  }
+
+  .hero_content p {
+    font-size: 40px;
+    width: 100%;
+    margin-bottom: 2%;
+  }
+
+  .bolder_span {
+    font-size: 38px;
+  }
+
+  .hero_btn {
+    margin-bottom: 14%;
+  }
+
+  .hero_image {
+    margin-bottom: 15%;
+  }
+
+  /* Second Section */
+
+  .generic_section {
+    margin-top: 4%;
+    padding: 80px 300px;
+  }
+
+  .right_side {
+    width: 587px;
+    margin-left: 2%;
+  }
+
+  .left_side {
+    width: 644px;
+  }
+
+  .paragraph {
+    padding: 1%;
+  }
+
+  .division_line {
+    width: 1300px;
+  }
+
+  .right_side_reversed {
+    margin-right: 0%;
+  }
+
+  .borderless_btn {
+    padding: 3%;
+  }
+
+  .btn_line {
+    margin-left: 0%;
+  }
+
+  .second_subtitle {
+    padding-right: 23%;
+  }
+
+  /* About Section */
+
+  .about_left_side {
+    margin-left: 12%;
+  }
+
+  .about_paragraph {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .desktop_featured img {
+    width: 600px;
+    height: 568px;
+    margin-left: 5%;
+  }
+
+  /* Testimony Section */
+
+  .longer_line_container {
+    left: -37.2em;
+  }
+
+  .testimonial_container {
+    background-position-x: 307px;
+    background-position-y: 130px;
+  }
+
+  .client_card {
+    margin-top: 4%;
+  }
+
+  .client_paragraph {
+    width: 39vw;
+    margin-left: -12%;
+    margin-right: -9%;
+    padding: 2%;
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .client_container {
+    margin-left: 5%;
+  }
+
+  .generic_img {
+    width: 300px;
+    height: 300px;
+    margin-left: -72%;
+  }
+
+  .client_info {
+    top: 137px;
+    left: 81px;
+  }
+
+  .arrows_img {
+    top: -219px;
+  }
+
+  /* Library */
+
+  .library_left {
+    width: 500px;
+    height: 462px;
+    margin: auto;
+    margin-right: 15%;
+  }
+
+  .library_right {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+  }
+
+  .library_line_cont.second_section {
+    left: -1em;
+  }
+
+  .library_background_img {
+    margin-top: -6%;
+  }
+
+  /* Clients */
+
+  .clients_title {
+    margin-left: 0.5%;
+  }
+
+  .clients_paragraph {
+    margin-left: 0%;
   }
 
 }
