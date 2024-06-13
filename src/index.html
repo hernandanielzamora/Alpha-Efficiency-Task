@@ -19,18 +19,22 @@
   <body>
     <!-- NavBar -->
     <nav class="navbar">
-      <div class="phone">
+      <div class="phone hidden">
         <img src="media/Phone Vector.svg" alt="Phone Vector" class="" />
       </div>
-      <div class="logo-mobile">
+      <div class="logo-mobile hidden">
         <img src="media/Logo Mobile.svg" alt="Alpha Efficiency Logo" class="" />
       </div>
-      <div class="ham-menu">
+      <div class="ham-menu hidden">
         <span></span>
         <span></span>
       </div>
       <div class="logo-desktop">
-        <img src="media/AE Logo.svg" alt="Alpha Efficiency Logo" class="" />
+        <img
+          src="media/AE Logo.svg"
+          alt="Alpha Efficiency Logo"
+          class="logo_desktop_img"
+        />
       </div>
       <ul class="menu">
         <li class="menu_item"><a href="#" class="menu_link active">Home</a></li>
@@ -43,6 +47,7 @@
           <a href="#portfolio" class="menu_link">Portfolio</a>
         </li>
         <li class="menu_item"><a href="#" class="menu_link">Careers</a></li>
+        <li class="menu_item"><a href="#" class="menu_link">Contact</a></li>
       </ul>
     </nav>
 
@@ -100,7 +105,9 @@
           </button>
           <span class="btn_line"></span>
         </div>
-        <img src="media/Video.svg" alt="Video Screenshot" class="about_img" />
+        <div>
+          <img src="media/Video.svg" alt="Video Screenshot" class="about_img" />
+        </div>
       </div>
       <div class="generic_section_flex">
         <h4 class="subtitle">
@@ -130,10 +137,7 @@
     <!-- About us Section -->
 
     <section class="generic_section">
-      <div
-        id="about"
-        class="generic_section_flex about_us_container"
-      >
+      <div id="about" class="generic_section_flex about_us_container">
         <div class="title_container">
           <h4 class="subtitle">
             Analytics & Data Driven
@@ -158,8 +162,6 @@
           src="media/Featured On.svg"
           alt="Featured On Image"
           class="about_img about_us_img"
-          data-aos="flip-down"
-          data-aos-duration="1000"
         />
       </div>
     </section>
@@ -174,7 +176,8 @@
       <div class="generic_section_flex">
         <div class="title_container">
           <h4 class="subtitle client_subtitle">
-            <span class="subtitle_span clients_span">What Our Clients</span> Are saying
+            <span class="subtitle_span clients_span">What Our Clients</span> Are
+            saying
           </h4>
         </div>
         <div class="line_container">
@@ -203,10 +206,7 @@
 
     <!-- Blog Section -->
 
-    <section
-      class="generic_section libraries"
-      id="blog"
-    >
+    <section class="generic_section libraries" id="blog">
       <div class="generic_section_flex">
         <div class="title_container blog_subtitle">
           <h4 class="subtitle">
