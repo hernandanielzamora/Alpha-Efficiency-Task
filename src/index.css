@@ -86,6 +86,7 @@ li {
 
 .menu.active {
   right: 0;
+  z-index: 2;
 }
 
 .ham-menu {
@@ -155,6 +156,7 @@ li {
   align-items: center;
   padding: 2%;
   color: #303030;
+  width: 100vw;
 }
 
 .hero_container {
