@@ -1,0 +1,90 @@
+{
+  "images": [
+    {
+      "name": "Applications Logo",
+      "img": "./media/knowledge/Square 1.svg"
+    }, 
+    {
+      "name": "Books Logo",
+      "img": "./media/knowledge/Square 2.svg"
+    },
+    {
+      "name": "Email Marketing Logo",
+      "img": "./media/knowledge/Square 3.svg"
+    },
+    {
+      "name": "PPC Logo",
+      "img": "./media/knowledge/Square 4.svg"
+    },
+    {
+      "name": "SEO Logo",
+      "img": "./media/knowledge/Square 5.svg"
+    },
+    {
+      "name": "Web Design Logo",
+      "img": "./media/knowledge/Square 6.svg"
+    },
+    {
+      "name": "Tools Logo",
+      "img": "./media/knowledge/Square 7.svg"
+    },
+    {
+      "name": "Time Management Logo",
+      "img": "./media/knowledge/Square 8.svg"
+    },
+    {
+      "name": "Workflow Logo",
+      "img": "./media/knowledge/Square 9.svg"
+    }
+  ],
+  "clients": [
+    {
+      "name": "Aeriform Cinema Logo",
+      "img": "./media/clients/Client Card 1.svg"
+    },
+    {
+      "name": "Income Wizard Logo",
+      "img": "./media/clients/Client Card 2.svg"
+    },
+    {
+      "name": "Ignite Logo",
+      "img": "./media/clients/Client Card 3.svg"
+    },
+    {
+      "name": "Breachlock Logo",
+      "img": "./media/clients/Client Card 4.svg"
+    },
+    {
+      "name": "Real Estate Logo",
+      "img": "./media/clients/Client Card 5.svg"
+    },
+    {
+      "name": "CIH Logo",
+      "img": "./media/clients/Client Card 6.svg"
+    },
+    {
+      "name": "Tangram Logo",
+      "img": "./media/clients/Client Card 7.svg"
+    },
+    {
+      "name": "A Better Weigh Logo",
+      "img": "./media/clients/Client Card 8.svg"
+    },
+    {
+      "name": "Joorney Logo",
+      "img": "./media/clients/Client Card 9.svg"
+    },
+    {
+      "name": "Reveal Brainspace Logo",
+      "img": "./media/clients/Client Card 10.svg"
+    },
+    {
+      "name": "Smith Bucklin Logo",
+      "img": "./media/clients/Client Card 11.svg"
+    },
+    {
+      "name": "Sverdloff Logo",
+      "img": "./media/clients/Client Card 12.svg"
+    }
+  ]
+}
