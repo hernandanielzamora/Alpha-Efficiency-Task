@@ -1676,6 +1676,12 @@ li {
 
 /* Responsive for Desktop starting from (1800px) */
 @media screen and (min-width: 1800px) {
+  main {
+    background-position-x: -90px;
+    background-position-y: 290px;
+    background-attachment: local;
+  }
+  
   .second_subtitle {
     padding-right: 21%;
   }
