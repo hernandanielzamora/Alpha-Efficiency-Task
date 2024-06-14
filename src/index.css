@@ -1,3 +1,7 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+/* stylelint-disable length-zero-no-unit */
+/* stylelint-disable csstree/validator */
+
 /* NORMALIZE */
 * {
   margin: 0;
@@ -156,7 +160,7 @@ li {
   align-items: center;
   padding: 2%;
   color: #303030;
-  width: 100vw;
+  width: 99vw;
 }
 
 .hero_container {
@@ -164,6 +168,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 80%;
 }
 
 .hero_content h4 {
@@ -243,6 +248,7 @@ li {
 }
 
 .title_line {
+  display: flex;
   width: 60px;
   height: 1px;
   background-color: #898989;
@@ -315,19 +321,15 @@ li {
   position: absolute;
   inset: 0;
   background-image: url("media/AboutUs Background.svg");
-  background-position: bottom;
+  background-position-y: 290px;
+  background-position-x: 50px;
   background-size: 300px;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   z-index: -1;
 }
 
 /* Testimonial Section */
-
-.testimonial_container {
-  background-image: url('media/UnionClientBackground.svg');
-  background-repeat: no-repeat;
-  background-position: right;
-}
 
 .client_subtitle {
   text-align: left;
@@ -336,6 +338,14 @@ li {
 
 .clients_span {
   padding-right: 10%;
+  font-size: 30px;
+}
+
+.client_paragraph_container {
+  background-image: url('media/UnionClientBackground.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-top: 10%;
 }
 
 .client_paragraph {
@@ -375,7 +385,7 @@ li {
   margin-top: 4%;
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 
 .arrows_img:hover {
@@ -383,7 +393,6 @@ li {
 }
 
 /* Blog / Libraries Section */
-
 
 .library_left {
   padding: 64px 20px 32px 20px;
@@ -413,10 +422,6 @@ li {
   padding-right: 51%;
 }
 
-.clients_span {
-  font-size: 30px;
-}
-
 .clients_paragraph {
   font-weight: 400;
   font-size: 1em;
@@ -438,14 +443,13 @@ li {
 
 /* From 375px to 424px (Mobile M) */
 @media screen and (min-width: 375px) {
-
   /* General Sections */
   .about_img {
     width: 100%;
   }
 
   .line_container {
-    left: -8.6em
+    left: -8.6em;
   }
 
   .line_container.second_section {
@@ -487,14 +491,12 @@ li {
 
 /* From 425px to 767px (Mobile L) */
 @media screen and (min-width: 425px) {
-
   /* Navbar */
   .menu {
     margin-top: 20%;
   }
 
   /* Hero Section */
-
   .david_container {
     background-position-y: 60%;
   }
@@ -502,7 +504,7 @@ li {
   /* About Sections */
 
   .line_container {
-    left: -10em
+    left: -10em;
   }
 
   .second_subtitle {
@@ -539,7 +541,6 @@ li {
 
 /* From 768px to 1024px (Tablet to Laptop) */
 @media screen and (min-width: 768px) {
-
   /* Fonts */
   .futura_lt {
     font-family: 'Futura Lt BT';
@@ -612,7 +613,7 @@ li {
     line-height: 45px;
     width: 89%;
     height: 117px;
-    margin-bottom: 0%;
+    margin-bottom: 8%;
   }
 
   .bolder_span {
@@ -628,9 +629,7 @@ li {
     line-height: 30px;
     border-radius: 32px;
     gap: 16px;
-    margin-bottom: 0%;
     text-align: center;
-    line-height: 30px;
     align-self: center;
     font-family: 'Montserrat';
     margin-bottom: 5%;
@@ -712,7 +711,7 @@ li {
   }
 
   .title_line {
-    margin: 0%;
+    margin-top: 17px;
     width: 40.74px;
     height: 0.68px;
     color: #898989;
@@ -726,7 +725,6 @@ li {
     display: flex;
     justify-content: center;
   }
-
 
   .division_line {
     display: flex;
@@ -777,10 +775,17 @@ li {
 
   /* Testimonial Section */
 
+  .client_paragraph_container {
+    background-image: none;
+    padding-top: 1%;
+  }
+
   .testimonial_container {
-    background-position: center;
-    background-position-x: 208px;
-    background-position-y: 52px;
+    background-image: url('media/UnionClientBackground.svg');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position-x: 188px;
+    background-position-y: 76px;
     background-size: 80px;
   }
 
@@ -795,15 +800,21 @@ li {
 
   .client_card {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 64px;
+    margin-right: 15%;
+  }
+
+  .client_container {
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    margin-top: 1%;
   }
 
   .generic_img {
     width: 300px;
-    margin-left: -15%;
+    margin: auto;
   }
 
   .client_paragraph {
@@ -818,21 +829,23 @@ li {
     margin-right: -10%;
   }
 
+  .client_right_side {
+    display: flex;
+    position: absolute;
+  }
+
   .arrows_img {
     width: 100px;
     height: 30px;
     position: relative;
-    top: -100px;
-    left: -23px;
+    top: -120px;
+    left: 267px;
   }
 
   .client_info {
-    width: 27vw;
-    display: flex;
     position: relative;
-    top: 100px;
-    flex-direction: column;
-    left: 81px;
+    top: 80px;
+    left: 363px;
   }
 
   .client_name {
@@ -867,7 +880,7 @@ li {
   .flex_tablet {
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 99vw;
     gap: 20px;
     justify-content: center;
   }
@@ -876,17 +889,14 @@ li {
     text-align: center;
     width: 8em;
     transition: box-shadow 0.3s ease-in-out;
-    transform: 0.3s;
   }
 
   .card:hover:nth-child(even) {
-    transform: 0.3s translate(-12px, -12px);
     box-shadow: 12px 12px 10px #0581ee85;
     border-radius: 20px;
   }
 
   .card:hover:nth-child(odd) {
-    transform: 0.3s translate(12px, 12px);
     box-shadow: -12px 12px 10px #0581ee85;
     border-radius: 20px;
   }
@@ -906,7 +916,7 @@ li {
   .library_background_img {
     display: inline;
     margin-top: -3%;
-    width: 100vw;
+    width: 99vw;
   }
 
   /* Clients Section */
@@ -937,9 +947,6 @@ li {
   .client {
     width: 120px;
     height: 120px;
-  }
-
-  .client {
     border-radius: 20px;
     box-shadow: 0 10px 40px 2px rgba(0, 0, 0, 0.4);
     transform-origin: center center 0;
@@ -969,7 +976,6 @@ li {
 
 /* Responsive for Laptop */
 @media screen and (min-width: 1024px) {
-
   .desktop_noshow {
     display: none;
   }
@@ -986,7 +992,7 @@ li {
   }
 
   .menu {
-    gap: 64px;
+    gap: 32px;
   }
 
   /* Hero Section */
@@ -1064,7 +1070,7 @@ li {
   .testimonial_container {
     background-size: 126px;
     background-position-x: 315px;
-    background-position-y: 96px;
+    background-position-y: 116px;
   }
 
   .longer_line_container {
@@ -1079,6 +1085,7 @@ li {
 
   .client_card {
     margin-top: 1%;
+    margin-right: 8%;
   }
 
   .client_paragraph {
@@ -1106,7 +1113,13 @@ li {
   .arrows_img {
     width: 154px;
     height: 64px;
-    top: -142px;
+    top: -152px;
+    left: 307px;
+  }
+
+  .client_info {
+    left: 463px;
+    top: 130px;
   }
 
   /* Library Section */
@@ -1116,7 +1129,7 @@ li {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 99vw;
   }
 
   .library_left {
@@ -1165,18 +1178,14 @@ li {
     margin-top: -4%;
   }
 
-
   /* Clients */
-
   .clients_paragraph {
     font-size: 18px;
   }
 }
 
-/* Responsive for Desktop starting from (1440px) */
-
+/* Responsive for Desktop starting from (1280px) */
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
-
   .desktop_hidden {
     display: none;
   }
@@ -1200,7 +1209,8 @@ li {
   }
 
   .full_view {
-    height: 90vh;
+    margin-top: 5%;
+    padding-bottom: 10%;
   }
 
   /* Hero Section */
@@ -1209,13 +1219,17 @@ li {
     background-image: url('media/Desktop-HeroBackground.svg');
     background-repeat: no-repeat;
     background-position: bottom;
-    margin-bottom: -10%;
+    background-position-x: -310px;
+    background-attachment: fixed;
+    background-position-y: 380px;
   }
 
   .hero {
     background-image: url('media/Desktop-RightStatue.svg');
     background-repeat: no-repeat;
     background-position: right;
+    background-position-y: 60px;
+    background-attachment: local;
     background-size: 400px;
   }
 
@@ -1224,6 +1238,8 @@ li {
     background-repeat: no-repeat;
     background-position: left;
     background-size: 300px;
+    background-attachment: local;
+    background-position-y: 32px;
   }
 
   .hero_container {
@@ -1276,7 +1292,6 @@ li {
 
   .right_side .subtitle {
     font-size: 36px;
-
   }
 
   .reversed_section.tablet {
@@ -1322,12 +1337,12 @@ li {
   /* Testimonial Section */
 
   .testimonial_container {
-    background-position-x: 296px;
-    background-position-y: 129px;
+    background-position-x: 256px;
+    background-position-y: 92px;
   }
 
   .client_card {
-    margin-top: 6%;
+    margin-right: 38%;
   }
 
   .longer_line_container {
@@ -1350,6 +1365,8 @@ li {
 
   .client_info {
     width: 15vw;
+    top: 140px;
+    left: 573px;
   }
 
   .client_name {
@@ -1367,7 +1384,7 @@ li {
   }
 
   .arrows_img {
-    left: -69px;
+    left: 421px;
   }
 
   /* Library Section */
@@ -1412,9 +1429,9 @@ li {
     margin-bottom: 0%;
     padding-bottom: 0%;
   }
-
 }
 
+/* Responsive for Desktop starting from (1440px) */
 @media screen and (min-width: 1440px) {
   .desktop_hidden {
     display: none;
@@ -1439,7 +1456,8 @@ li {
   }
 
   .full_view {
-    height: 90vh;
+    margin-top: 5%;
+    padding-bottom: 10%;
   }
 
   /* Hero Section */
@@ -1447,14 +1465,16 @@ li {
   main {
     background-image: url('media/Desktop-HeroBackground.svg');
     background-repeat: no-repeat;
-    background-position: bottom;
-    margin-bottom: -10%;
+    background-position-x: -260px;
+    background-position-y: 250px;
   }
 
   .hero {
     background-image: url('media/Desktop-RightStatue.svg');
     background-repeat: no-repeat;
     background-position: right;
+    background-attachment: local;
+    background-position-y: 127px;
     background-size: 400px;
   }
 
@@ -1462,6 +1482,7 @@ li {
     background-image: url('media/Desktop-LeftStatue.svg');
     background-repeat: no-repeat;
     background-position: left;
+    background-attachment: local;
     background-size: 300px;
   }
 
@@ -1515,7 +1536,6 @@ li {
 
   .right_side .subtitle {
     font-size: 36px;
-
   }
 
   .reversed_section.tablet {
@@ -1566,7 +1586,7 @@ li {
   }
 
   .client_card {
-    margin-top: 6%;
+    margin-right: 40%;
   }
 
   .longer_line_container {
@@ -1588,11 +1608,12 @@ li {
   }
 
   .client_info {
-    width: 15vw;
+    left: 643px;
+    top: 140px;
   }
 
   .client_name {
-    font-size: 24px;
+    font-size: 30px;
     line-height: 27px;
   }
 
@@ -1606,7 +1627,7 @@ li {
   }
 
   .arrows_img {
-    left: -69px;
+    left: 481px;
   }
 
   /* Library Section */
@@ -1630,6 +1651,7 @@ li {
     width: 500px;
     height: 500px;
     margin: auto;
+    gap: 20px;
   }
 
   .library_right .card {
@@ -1650,14 +1672,30 @@ li {
     margin-bottom: 0%;
     padding-bottom: 0%;
   }
-
-
 }
 
+/* Responsive for Desktop starting from (1800px) */
+@media screen and (min-width: 1800px) {
+  .second_subtitle {
+    padding-right: 21%;
+  }
+
+  .about_us_container {
+    margin-left: auto;
+  }
+
+  .library_right {
+    gap: 35px;
+  }
+
+  .clients_container {
+    margin-top: -8%;
+  }
+}
+
+/* Responsive for Desktop starting from (1920px) */
 @media screen and (min-width: 1920px) {
-
   /* Navbar */
-
   .navbar {
     padding: 0px 300px;
   }
@@ -1685,11 +1723,14 @@ li {
   /* Hero Section */
 
   main {
-    background-position-y: 420px;
+    background-position-y: 250px;
+    background-position-x: -360px;
+    background-size: 2610px;
   }
 
   .hero {
     background-size: 500px;
+    background-position-y: 147px;
   }
 
   .hero_content {
@@ -1721,18 +1762,30 @@ li {
 
   /* Second Section */
 
+  .second_section_img {
+    margin-left: 12%;
+  }
+
   .generic_section {
     margin-top: 4%;
     padding: 80px 300px;
   }
 
+  .first_right {
+    padding-left: 5%;
+  }
+
   .right_side {
     width: 587px;
-    margin-left: 2%;
+    margin-left: 0%;
   }
 
   .left_side {
     width: 644px;
+  }
+
+  .left_side_reversed {
+    padding-right: 5%;
   }
 
   .paragraph {
@@ -1761,6 +1814,10 @@ li {
 
   /* About Section */
 
+  .about_us_container {
+    margin-left: 1%;
+  }
+
   .about_left_side {
     margin-left: 12%;
   }
@@ -1783,12 +1840,13 @@ li {
   }
 
   .testimonial_container {
-    background-position-x: 307px;
-    background-position-y: 130px;
+    background-position-x: 327px;
+    background-position-y: 100px;
   }
 
   .client_card {
-    margin-top: 4%;
+    margin: auto;
+    margin-right: 20%;
   }
 
   .client_paragraph {
@@ -1801,26 +1859,26 @@ li {
   }
 
   .client_container {
-    margin-left: 5%;
+    margin: auto;
   }
 
   .generic_img {
     width: 300px;
     height: 300px;
-    margin-left: -72%;
+    margin-right: 40%;
   }
 
   .client_info {
-    top: 137px;
-    left: 81px;
+    top: 147px;
+    left: 621px;
   }
 
   .arrows_img {
-    top: -219px;
+    top: -159px;
   }
 
   /* Library */
-  
+
   .flex_tablet {
     gap: 35px;
   }
@@ -1855,5 +1913,105 @@ li {
   .clients_paragraph {
     margin-left: 0%;
   }
+}
 
+/* Responsive for Desktop starting from (2560px) */
+@media screen and (min-width: 2560px) {
+  /* NavBar */
+  .menu_link {
+    font-size: 2em;
+  }
+
+  .menu_link:hover {
+    font-size: 2.2em;
+  }
+
+  .active {
+    font-size: 2.3em;
+  }
+
+  /* Hero Section */
+
+  main {
+    background-position-y: 230px;
+    background-position-x: -9px;
+  }
+
+  .hero {
+    background-position-y: 117px;
+  }
+
+  .hero_content {
+    background-position-y: 23px;
+  }
+
+  .hero_container {
+    width: 80%;
+  }
+
+  .hero_content h4 {
+    font-size: 30px;
+    padding-left: 24.2%;
+    line-height: 30px;
+  }
+
+  .hero_content p {
+    font-size: 50px;
+    line-height: 69px;
+    width: 60%;
+    margin-bottom: 8%;
+    padding-bottom: 1%;
+  }
+
+  .bolder_span {
+    font-size: 46px;
+  }
+
+  .hero_btn {
+    width: 30%;
+    font-size: 30px;
+    padding: 15px;
+    margin-bottom: 5%;
+  }
+
+  /* Second Section */
+
+  .generic_section {
+    padding: 120px 410px;
+  }
+
+  .right_side {
+    margin-left: -16%;
+  }
+
+  .second_section_img {
+    margin-left: 15%;
+  }
+
+  .left_side_reversed {
+    padding-right: 4%;
+    margin-right: -13%;
+    margin-left: -1%;
+  }
+
+  .right_side_reversed {
+    margin-right: -3%;
+  }
+
+  /* About Section */
+
+  .desktop_featured img {
+    margin-left: 53%;
+  }
+
+  .about_left_side {
+    margin-left: 17%;
+    padding: 7%;
+  }
+
+  /* Testimonial Section */
+
+  .client_card {
+    margin-right: 11%;
+  }
 }
